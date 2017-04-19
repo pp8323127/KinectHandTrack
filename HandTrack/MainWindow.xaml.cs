@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 
 using Microsoft.Kinect;
 using Microsoft.Kinect.Wpf.Controls;
+using Microsoft.Samples.Kinect.ControlsBasics.DataModel;
 
 namespace HandTrack
 {
@@ -33,6 +34,10 @@ namespace HandTrack
 
             // Use the default sensor
             this.kinectRegion.KinectSensor = KinectSensor.GetDefault();
+
+            ////// Add in display content
+            //var sampleDataSource = SampleDataSource.GetGroup("Group-1");
+            //this.itemsControl.ItemsSource = sampleDataSource;
         }
 
         private void ButtonClick(object sender, RoutedEventArgs e)
@@ -42,7 +47,7 @@ namespace HandTrack
 
         private void btn1_Click(object sender, RoutedEventArgs e)
         {
-            label.Content = "abc";
+            //label.Content = "abc";
         }
     }
 }

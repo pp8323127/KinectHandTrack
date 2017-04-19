@@ -36,3 +36,36 @@ C:\MO\HandTrack\HandTrack\obj\Debug\HandTrack.csproj.GenerateResource.Cache
 C:\MO\HandTrack\HandTrack\obj\Debug\Common\StandardStyles.baml
 C:\MO\HandTrack\HandTrack\obj\Debug\HandPointers\HandPointerStyles.baml
 C:\MO\HandTrack\HandTrack\obj\Debug\App.baml
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\bin\Debug\HandTrack.exe.config
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\HandTrack.exe
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\HandTrack.pdb
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\bin\Debug\HandTrack.exe
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\bin\Debug\HandTrack.pdb
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\bin\Debug\Microsoft.Kinect.dll
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\bin\Debug\Microsoft.Kinect.Wpf.Controls.dll
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\bin\Debug\Microsoft.Kinect.xml
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\bin\Debug\Microsoft.Kinect.Wpf.Controls.xml
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\HandTrack.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\Common\StandardStyles.baml
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\HandPointers\HandPointerStyles.baml
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\MainWindow.g.cs
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\App.g.cs
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\HandTrack_MarkupCompile.cache
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\HandTrack_MarkupCompile.lref
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\App.baml
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\MainWindow.baml
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\HandTrack.g.resources
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\HandTrack.Properties.Resources.resources
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\HandTrack.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\Pages\ButtonSample.baml
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\Pages\CheckBoxRadioButtonSample.baml
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\Pages\ItemsControlsSample.baml
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\Pages\KinectPointerPointSample.baml
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\Pages\ScrollViewerSample.baml
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\Pages\SliderSample.baml
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\Pages\ButtonSample.g.cs
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\Pages\CheckBoxRadioButtonSample.g.cs
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\Pages\ItemsControlsSample.g.cs
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\Pages\KinectPointerPointSample.g.cs
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\Pages\ScrollViewerSample.g.cs
+D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\Pages\SliderSample.g.cs

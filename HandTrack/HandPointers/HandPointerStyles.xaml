@@ -54,16 +54,39 @@
     <SolidColorBrush x:Key="ListViewItemOverlayBackgroundThemeBrush" Color="DarkGray" />
     <SolidColorBrush x:Key="ListViewItemOverlayForegroundThemeBrush" Color="Yellow" />
     <SolidColorBrush x:Key="ListViewItemOverlaySecondaryForegroundThemeBrush" Color="Aqua"/>
+
+    <Style x:Key="KinectButtonCustom" TargetType="Button">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Border x:Name="borderr" BorderBrush="Red" BorderThickness="10">
+                        <Border.Background>
+                            <SolidColorBrush Color="Black"/>
+                        </Border.Background>
+                        
+                        <ContentPresenter />
+                    </Border>
+                    <!--<StackPanel Orientation="Horizontal"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"/>-->
+
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
     
     <Style x:Key="KinectTileButton" TargetType="Button">
         <Setter Property="Template">
             <Setter.Value>
-                <ControlTemplate TargetType="Button">
+                <ControlTemplate TargetType="Button">                    
                     <Border x:Name="focusRect" BorderThickness="6" Margin="-6">
                         <ContentPresenter />
                         <Border.BorderBrush>
                             <SolidColorBrush x:Name="focusRectBrush" Color="Transparent" />
                         </Border.BorderBrush>
+                        <Border.Background>
+                            <SolidColorBrush Color="Gray"/>
+                        </Border.Background>
                         <VisualStateManager.VisualStateGroups>
                             <VisualStateGroup x:Name="CommonStates">
                                 <VisualState x:Name="Normal"/>
