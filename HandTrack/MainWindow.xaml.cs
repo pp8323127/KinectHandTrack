@@ -35,9 +35,9 @@ namespace HandTrack
             // Use the default sensor
             this.kinectRegion.KinectSensor = KinectSensor.GetDefault();
 
-            ////// Add in display content
-            //var sampleDataSource = SampleDataSource.GetGroup("Group-1");
-            //this.itemsControl.ItemsSource = sampleDataSource;
+            //// Add in display content
+            var sampleDataSource = SampleDataSource.GetGroup("Group-1");
+            this.itemsControl.ItemsSource = sampleDataSource;
         }
 
         private void ButtonClick(object sender, RoutedEventArgs e)

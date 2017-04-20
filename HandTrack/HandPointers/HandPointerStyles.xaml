@@ -55,38 +55,15 @@
     <SolidColorBrush x:Key="ListViewItemOverlayForegroundThemeBrush" Color="Yellow" />
     <SolidColorBrush x:Key="ListViewItemOverlaySecondaryForegroundThemeBrush" Color="Aqua"/>
 
-    <Style x:Key="KinectButtonCustom" TargetType="Button">
-        <Setter Property="Template">
-            <Setter.Value>
-                <ControlTemplate>
-                    <Border x:Name="borderr" BorderBrush="Red" BorderThickness="10">
-                        <Border.Background>
-                            <SolidColorBrush Color="Black"/>
-                        </Border.Background>
-                        
-                        <ContentPresenter />
-                    </Border>
-                    <!--<StackPanel Orientation="Horizontal"
-                    VerticalAlignment="Center"
-                    HorizontalAlignment="Center"/>-->
-
-                </ControlTemplate>
-            </Setter.Value>
-        </Setter>
-    </Style>
-    
     <Style x:Key="KinectTileButton" TargetType="Button">
         <Setter Property="Template">
             <Setter.Value>
-                <ControlTemplate TargetType="Button">                    
+                <ControlTemplate TargetType="Button">
                     <Border x:Name="focusRect" BorderThickness="6" Margin="-6">
                         <ContentPresenter />
                         <Border.BorderBrush>
                             <SolidColorBrush x:Name="focusRectBrush" Color="Transparent" />
                         </Border.BorderBrush>
-                        <Border.Background>
-                            <SolidColorBrush Color="Gray"/>
-                        </Border.Background>
                         <VisualStateManager.VisualStateGroups>
                             <VisualStateGroup x:Name="CommonStates">
                                 <VisualState x:Name="Normal"/>
@@ -110,9 +87,13 @@
 
     <DataTemplate x:Key="Kinect250x250ItemTemplate">
         <Button Margin="3" Style="{StaticResource KinectTileButton}">
-            <Grid HorizontalAlignment="Left" Width="250" Height="250">
+            <Grid HorizontalAlignment="Left" Width="550" Height="550">
                 <Border Background="{StaticResource ListViewItemPlaceholderBackgroundThemeBrush}">
-                    <Image Source="{Binding Image}" Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}"/>
+                    <Grid>
+                        <Image Source="{Binding Image}" Stretch="Uniform" AutomationProperties.Name="{Binding Title}" Width="100" Height="100" HorizontalAlignment="Right"/>
+                        <Image Source="{Binding Image2}" Stretch="Uniform" AutomationProperties.Name="{Binding Title}" Width="100" Height="100" HorizontalAlignment="Left"/>
+                    </Grid>
+
                 </Border>
                 <StackPanel VerticalAlignment="Bottom" Background="{StaticResource ListViewItemOverlayBackgroundThemeBrush}">
                     <TextBlock Text="{Binding Title}" Foreground="{StaticResource ListViewItemOverlayForegroundThemeBrush}" Style="{StaticResource TitleTextStyle}" Height="60" Margin="15,0,15,0"/>
@@ -121,7 +102,18 @@
             </Grid>
         </Button>
     </DataTemplate>
-    
+
+    <DataTemplate x:Key="myTemplete">
+        <Button Margin="3" Style="{StaticResource KinectTileButton}">
+            <Grid HorizontalAlignment="Left" Width="300" Height="300">
+                <Border Background="LightGray">
+                    <Image Source="{Binding Image}" Stretch="Uniform" AutomationProperties.Name="{Binding Title}"/>
+                </Border>
+
+            </Grid>
+        </Button>
+    </DataTemplate>
+
     <!-- Button Text Style -->
     <Style x:Key="ButtonTextStyle" TargetType="TextBlock">
         <Setter Property="FontFamily" Value="Segoe UI" />
@@ -473,7 +465,7 @@
                                 Height="14"
                                 VerticalAlignment="Top"
                                 RenderTransformOrigin="0.5,0">
-                                <Rectangle.RenderTransform>                                    
+                                <Rectangle.RenderTransform>
                                     <ScaleTransform ScaleY="0" />
                                 </Rectangle.RenderTransform>
                             </Rectangle>
@@ -1175,8 +1167,8 @@
         <Setter Property="MinHeight" Value="48"/>
         <Setter Property="Padding" Value="36,36,36,36" />
         <Setter Property="k:KinectRegion.KinectPressInset" Value="36,36,36,36" />
-        <Setter Property="VerticalAlignment" Value="Bottom"/>        
-        <Setter Property="FontWeight" Value="Normal"/>        
+        <Setter Property="VerticalAlignment" Value="Bottom"/>
+        <Setter Property="FontWeight" Value="Normal"/>
         <Setter Property="AutomationProperties.AutomationId" Value="BackButton"/>
         <Setter Property="AutomationProperties.Name" Value="Back"/>
         <Setter Property="AutomationProperties.ItemType" Value="Navigation Button"/>
@@ -1271,5 +1263,5 @@
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
-    </Style>    
+    </Style>
 </ResourceDictionary>
