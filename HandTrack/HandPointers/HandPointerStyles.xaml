@@ -69,12 +69,12 @@
                                 <VisualState x:Name="Normal"/>
                                 <VisualState x:Name="MouseOver">
                                     <Storyboard>
-                                        <ColorAnimation Duration="0" Storyboard.TargetName="focusRectBrush" Storyboard.TargetProperty="Color" To="Gray"/>
+                                        <ColorAnimation Duration="0" Storyboard.TargetName="focusRectBrush" Storyboard.TargetProperty="Color" To="Red"/>
                                     </Storyboard>
                                 </VisualState>
                                 <VisualState x:Name="Pressed">
                                     <Storyboard>
-                                        <ColorAnimation Duration="0" Storyboard.TargetName="focusRectBrush" Storyboard.TargetProperty="Color" To="Gray"/>
+                                        <ColorAnimation Duration="0" Storyboard.TargetName="focusRectBrush" Storyboard.TargetProperty="Color" To="LightBlue"/>
                                     </Storyboard>
                                 </VisualState>
                             </VisualStateGroup>
@@ -86,19 +86,21 @@
     </Style>
 
     <DataTemplate x:Key="Kinect250x250ItemTemplate">
-        <Button Margin="3" Style="{StaticResource KinectTileButton}">
-            <Grid HorizontalAlignment="Left" Width="550" Height="550">
+        <Button Margin="20" Style="{StaticResource KinectTileButton}">
+            <Grid HorizontalAlignment="Left" Width="250" Height="250">
+                
                 <Border Background="{StaticResource ListViewItemPlaceholderBackgroundThemeBrush}">
                     <Grid>
                         <Image Source="{Binding Image}" Stretch="Uniform" AutomationProperties.Name="{Binding Title}" Width="100" Height="100" HorizontalAlignment="Right"/>
                         <Image Source="{Binding Image2}" Stretch="Uniform" AutomationProperties.Name="{Binding Title}" Width="100" Height="100" HorizontalAlignment="Left"/>
                     </Grid>
-
                 </Border>
-                <StackPanel VerticalAlignment="Bottom" Background="{StaticResource ListViewItemOverlayBackgroundThemeBrush}">
-                    <TextBlock Text="{Binding Title}" Foreground="{StaticResource ListViewItemOverlayForegroundThemeBrush}" Style="{StaticResource TitleTextStyle}" Height="60" Margin="15,0,15,0"/>
-                    <TextBlock Text="{Binding Subtitle}" Foreground="{StaticResource ListViewItemOverlaySecondaryForegroundThemeBrush}" Style="{StaticResource CaptionTextStyle}" TextWrapping="NoWrap" Margin="15,0,15,10"/>
+                
+                <StackPanel Orientation="Vertical" VerticalAlignment="Bottom" Background="{StaticResource ListViewItemOverlayBackgroundThemeBrush}">
+                    <TextBlock Text="{Binding Title}" Foreground="{StaticResource ListViewItemOverlayForegroundThemeBrush}" FontSize="20" Style="{StaticResource TitleTextStyle}" Height="60" Margin="15,0,15,0"/>
+                    <TextBlock Text="{Binding Subtitle}" Foreground="{StaticResource ListViewItemOverlaySecondaryForegroundThemeBrush}" FontSize="16" Style="{StaticResource CaptionTextStyle}" TextWrapping="NoWrap" Margin="15,0,15,10"/>
                 </StackPanel>
+                
             </Grid>
         </Button>
     </DataTemplate>
