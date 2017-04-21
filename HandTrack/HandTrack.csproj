@@ -105,6 +105,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Pages\EngagementSettings.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Pages\ItemsControlsSample.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -128,6 +132,9 @@
     </Compile>
     <Compile Include="Pages\CheckBoxRadioButtonSample.xaml.cs">
       <DependentUpon>CheckBoxRadioButtonSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EngagementSettings.xaml.cs">
+      <DependentUpon>EngagementSettings.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\ItemsControlsSample.xaml.cs">
       <DependentUpon>ItemsControlsSample.xaml</DependentUpon>

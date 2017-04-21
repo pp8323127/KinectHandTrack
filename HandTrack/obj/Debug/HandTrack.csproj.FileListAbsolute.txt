@@ -69,3 +69,38 @@ D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\Pag
 D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\Pages\KinectPointerPointSample.g.cs
 D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\Pages\ScrollViewerSample.g.cs
 D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\Pages\SliderSample.g.cs
+C:\MO\KinectHandTrack\HandTrack\bin\Debug\HandTrack.exe.config
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\HandTrack.exe
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\HandTrack.pdb
+C:\MO\KinectHandTrack\HandTrack\bin\Debug\HandTrack.exe
+C:\MO\KinectHandTrack\HandTrack\bin\Debug\HandTrack.pdb
+C:\MO\KinectHandTrack\HandTrack\bin\Debug\Microsoft.Kinect.dll
+C:\MO\KinectHandTrack\HandTrack\bin\Debug\Microsoft.Kinect.Wpf.Controls.dll
+C:\MO\KinectHandTrack\HandTrack\bin\Debug\Microsoft.Kinect.xml
+C:\MO\KinectHandTrack\HandTrack\bin\Debug\Microsoft.Kinect.Wpf.Controls.xml
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\HandTrack.csprojResolveAssemblyReference.cache
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\Common\StandardStyles.baml
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\HandPointers\HandPointerStyles.baml
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\Pages\ButtonSample.baml
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\Pages\CheckBoxRadioButtonSample.baml
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\Pages\EngagementSettings.baml
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\Pages\ItemsControlsSample.baml
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\Pages\KinectPointerPointSample.baml
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\Pages\ScrollViewerSample.baml
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\Pages\SliderSample.baml
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\MainWindow.g.cs
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\Pages\ButtonSample.g.cs
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\Pages\CheckBoxRadioButtonSample.g.cs
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\Pages\EngagementSettings.g.cs
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\Pages\ItemsControlsSample.g.cs
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\Pages\KinectPointerPointSample.g.cs
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\Pages\ScrollViewerSample.g.cs
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\Pages\SliderSample.g.cs
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\App.g.cs
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\HandTrack_MarkupCompile.cache
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\HandTrack_MarkupCompile.lref
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\App.baml
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\MainWindow.baml
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\HandTrack.g.resources
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\HandTrack.Properties.Resources.resources
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\HandTrack.csproj.GenerateResource.Cache

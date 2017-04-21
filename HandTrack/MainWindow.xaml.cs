@@ -42,7 +42,14 @@ namespace HandTrack
 
         private void ButtonClick(object sender, RoutedEventArgs e)
         {
+            var button = (Button)e.OriginalSource;
+            SampleDataItem sampleDataItem = button.DataContext as SampleDataItem;
 
+            if (sampleDataItem != null && sampleDataItem.NavigationPage != null)
+            {
+                //backButton.Visibility = System.Windows.Visibility.Visible;
+                navigationRegion.Content = Activator.CreateInstance(sampleDataItem.NavigationPage);
+            }
         }
 
         private void btn1_Click(object sender, RoutedEventArgs e)

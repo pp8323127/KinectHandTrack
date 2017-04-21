@@ -90,6 +90,17 @@ namespace Microsoft.Samples.Kinect.ControlsBasics.DataModel
                         typeof(ScrollViewerSample)));
             group1.Items.Add(
                     new SampleDataItem(
+                        "Group-1-Item-7",
+                        "Engagement and Cursor Settings",
+                        "",
+                        SampleDataSource.darkGrayImage,
+                        SampleDataSource.mediumGrayImage,
+                        "Enables user to switch between engagement models and cursor visuals.",
+                        itemContent,
+                        group1,
+                        typeof(EngagementSettings)));
+            group1.Items.Add(
+                    new SampleDataItem(
                         "Group-1-Item-6",
                         "Kinect Pointer Events",
                         string.Empty,

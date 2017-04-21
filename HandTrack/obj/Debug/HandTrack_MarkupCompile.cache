@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\obj\Debug\
+C:\MO\KinectHandTrack\HandTrack\obj\Debug\
 HandTrack
 none
 false
 DEBUG;TRACE
-D:\Documents\Visual Studio 2015\Projects\KinectHandTrack\HandTrack\App.xaml
-9954083626
+C:\MO\KinectHandTrack\HandTrack\App.xaml
+10-1822938718
 
-151243130988
+16622130002
 151628330759
-Common\StandardStyles.xaml;HandPointers\HandPointerStyles.xaml;MainWindow.xaml;Pages\ButtonSample.xaml;Pages\CheckBoxRadioButtonSample.xaml;Pages\ItemsControlsSample.xaml;Pages\KinectPointerPointSample.xaml;Pages\ScrollViewerSample.xaml;Pages\SliderSample.xaml;
+Common\StandardStyles.xaml;HandPointers\HandPointerStyles.xaml;MainWindow.xaml;Pages\ButtonSample.xaml;Pages\CheckBoxRadioButtonSample.xaml;Pages\EngagementSettings.xaml;Pages\ItemsControlsSample.xaml;Pages\KinectPointerPointSample.xaml;Pages\ScrollViewerSample.xaml;Pages\SliderSample.xaml;
 
 False
 
